@@ -219,3 +219,60 @@ int main() {
 
     return 0;
 }
+
+/*
+OUTPUT:
+BY USING PRIM'S ALGORITHM:
+
+Enter the number of hospitals (nodes): 4
+Enter the adjacency matrix for the graph (use 0 for no connection and the weight for connected nodes):
+0 2 0 6
+2 0 3 8
+0 3 0 0
+6 8 0 0
+
+Enter the number of edges: 5
+Enter the edges in the format (src dest weight):
+0 1 2                        
+0 3 6 
+1 2 3
+1 3 8
+2 3 0
+
+Choose the algorithm to solve the problem:
+1. Prim's Algorithm
+2. Kruskal's Algorithm
+Enter your choice (1 or 2): 1
+
+Solving using Prim's Algorithm:
+Edge    Weight
+0 - 1   2
+1 - 2   3
+0 - 3   6
+
+BY USING KRUSKAL'S ALGORITHM:
+
+Enter the number of hospitals (nodes): 4
+Enter the adjacency matrix for the graph (use 0 for no connection and the weight for connected nodes):
+0 2 0 6 
+2 0 3 8 
+0 3 0 0 
+6 8 0 0 
+Enter the number of edges: 5
+Enter the edges in the format (src dest weight):
+0 1 2
+0 3 6
+1 2 3
+1 3 8 
+2 3 0
+Choose the algorithm to solve the problem:
+1. Prim's Algorithm
+2. Kruskal's Algorithm
+Enter your choice (1 or 2): 2
+
+Solving using Kruskal's Algorithm:
+Edge    Weight
+2 - 3   0
+0 - 1   2
+1 - 2   3
+*/
